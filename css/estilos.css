@@ -99,6 +99,7 @@ nav a.is-active{
 h1 {
  margin: 0;
  font-weight: 600;
+ margin-bottom: 15px;
 }
 
 .portada{
@@ -127,11 +128,15 @@ h1 {
 
 .blog-items h3{
  font-weight: 600;
- margin: 10px 0;
+ margin: 10px 0 15px;
 }
 
 .item-blog{
  width: 300px;
+}
+
+.item-blog .descripcion{
+  margin-bottom: 15px;
 }
 
 .paginador{
@@ -167,6 +172,24 @@ h1 {
     text-decoration: none;
 }
 
+.autor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
+
+.autor img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.autor p{
+  margin: 0;
+}
 
 
 
