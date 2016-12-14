@@ -1,0 +1,140 @@
+body{
+ margin: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+
+header{
+ background: #273B47;
+ height: 50px;
+ padding: 0 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.header-right{
+ height: inherit;
+ display: flex;
+ align-items: center;
+}
+
+.header-right .button{
+ margin-left: 10px;
+}
+
+.button{
+ background: gray;
+ box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .3);
+ /*border-bottom: 5px solid black;*/
+ font-size: 14px;
+ padding: 5px 10px 10px;
+ border-radius: 5px;
+ text-decoration: none;
+ color: white;
+ transition:.2s;
+}
+
+.button:active{
+ transform: scale(.9);
+}
+
+.button.red{
+ background: #ff4842;
+ border-color: yellow;
+}
+
+nav
+{
+ height: inherit;
+}
+
+nav ul{
+ margin: 0;
+ display: flex;
+ height: inherit;
+
+}
+
+nav li{
+ list-style: none;
+ color: white;
+ height: inherit;
+ display: flex;
+ align-items: center;
+
+}
+
+nav li:after{
+ content: "|";
+ display: inline-block; 
+}
+
+nav li:last-child:after{
+ display: none;
+}
+
+
+nav a{
+ color: white;
+ text-decoration: none;
+ height: inherit;
+ display: flex;
+ align-items: center;
+ padding: 0 10px;
+}
+
+nav a:hover{
+ box-shadow: inset 0 5px 0 red !important;
+}
+
+nav a.is-active{
+ box-shadow: inset 0 5px 0 #7dcd40;
+}
+
+h1 {
+ margin: 0;
+ font-weight: 600;
+}
+
+.portada{
+  position: relative;
+}
+
+.portada .descripcion{
+  background: rgba(255, 255, 255, .8);
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  padding: 20px;
+
+}
+
+.blog{
+ width: 1000px;
+ margin: 0 auto;
+}
+
+.blog-items{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.blog-items h3{
+ font-weight: 600;
+ margin: 10px 0;
+}
+
+.item-blog{
+ width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
