@@ -1,6 +1,11 @@
 body{
  margin: 0;
  font-family: 'Open Sans', sans-serif;
+ color: #515151;
+}
+
+a {
+  color: #515151;
 }
 
 header{
@@ -129,6 +134,38 @@ h1 {
  width: 300px;
 }
 
+.paginador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.paginador ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.paginador li{
+    background: #eaeaea;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border: 1px solid gray;
+    margin: 0 5px;
+}
+
+.paginador li.selected{
+  border-color: transparent;
+  background: white;
+}
+
+.paginador a{
+    text-decoration: none;
+}
 
 
 
